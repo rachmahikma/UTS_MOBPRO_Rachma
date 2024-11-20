@@ -1,0 +1,33 @@
+name: volly_app
+description: Aplikasi Volly
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_lints: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/register.jpg
+    - assets/images/login.jpg
+    - assets/images/backgroud.jpg
+    - assets/images/volly1.jpg
+    - assets/images/volly2.jpeg
+    - assets/images/volly3.jpeg
+    - assets/images/volly4.jpg
+    - assets/images/volly5.jpeg
+    - assets/images/volly6.jpg
